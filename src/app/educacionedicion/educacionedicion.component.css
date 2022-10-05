@@ -1,0 +1,52 @@
+section.educacion {
+    border-style: solid;
+    border-width: 0.15rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+#edu{
+    margin-left: -4rem;
+}
+#educ{
+    padding-left: 0.5rem;
+    padding-top: 2rem;
+    float: left;
+    align-content: center; 
+}
+ul {
+    list-style: none;
+}
+
+#primerlogo{
+    height: 60px;
+    width: 90px;
+    margin-top: 2rem;
+    margin-left: -1rem;  
+}
+#segundologo{
+    height: 70px;
+    width: 70px;
+    margin-top: 3rem; 
+    margin-left: -0.3rem;
+}
+#tercerlogo{
+    height: 60px;
+    width: 60px;
+    margin-top: 2rem; 
+    
+}
+#cuartologo{
+    height: 70px;
+    width: 60px;
+    margin-top: 2rem; 
+}
+#educ {
+    padding-left: 0.5rem;
+    padding-top: 2rem;
+    float: left;
+    align-content: center; 
+}

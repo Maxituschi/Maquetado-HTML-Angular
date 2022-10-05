@@ -1,0 +1,38 @@
+<section id="Hard Skills and Soft Skills" class="Hard_Skills_and_Soft_Skills">
+
+    <div class="contenedor-fluid">
+      <div class="row">
+  
+        <div class="col-2">
+          
+          <ul *ngFor="let habilidad of habilidades" >
+             <br> 
+            <li><img [src]="" id="septimologo" alt="..."></li>
+            <!-- <li><img src="assets/img/icono CSS.png" id="septimologo" alt="..."></li>
+            <li><img src="assets/img/icono JS.jpg" id="septimologo" alt="..."></li>  -->
+          </ul>
+        </div>
+        
+  
+          <div id="habil" class="col-8">
+            <h4>Habilidades</h4>
+             <br>
+            <div *ngFor="let habilidad of habilidades">
+            <h5>{{habilidad.curso}}</h5>
+            <div class="progress mb-3" >
+            
+            <div class="progress-bar" role="progressbar" [style.width.%]="habilidad.porcentaje" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{habilidad.porcentaje}}%</div>
+           
+            </div>          
+
+         </div>
+  
+            
+          </div> 
+          
+          <div class="col-2">
+          </div>
+  
+    </div>
+    </div>
+    </section>

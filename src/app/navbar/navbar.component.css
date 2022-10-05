@@ -1,0 +1,11 @@
+/*color de nabvar*/
+
+.navbar {
+    background-color: #4343a4 !important;
+    height: 8rem;
+}
+
+.navbar-brand {
+    margin-top: -2rem;
+} 
+

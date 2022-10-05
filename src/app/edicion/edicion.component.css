@@ -1,0 +1,35 @@
+/*estilos de dashboard*/
+.dashboard { 
+    margin-top: 10rem !important;
+}
+
+/* grilla y botones */
+.col-9{
+    margin-left: 13rem;
+    margin-top: -14rem;
+} 
+.col-1{
+    margin-top: -13rem;
+}
+
+/* Estilos de Botones Guardar*/
+
+#guardar1 {
+    margin-top: 3.1rem;
+}
+
+#guardar2 {
+    margin-top: 2.6rem;
+}
+
+#guardar3 {
+    margin-top: 2.6rem;
+}
+
+.nivel{
+    font-size: 2rem;
+}   
+
+h2{
+    text-align: center;
+}

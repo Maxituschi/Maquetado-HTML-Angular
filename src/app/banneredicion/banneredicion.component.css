@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+*{}
+
+section.info {
+    background-image: url(/assets/img/pexels-philippe-donn-1169754.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    color: #7dc0c0;
+    font-family: cursive;
+    margin-top: 8rem;
+}
+.rounded-circle.w-75 {
+    margin-top: 3rem;
+    margin-left: 0rem;
+}
+
+/* alineado descripcion sobre mi*/
+h3.informacion {
+    margin-top: 7rem;
+    margin-left: 3rem;
+}
+#historia{
+    font-size:1.2rem;
+}
+ #btn1 {
+    margin-top: 2rem;
+} 
+#btn2 {
+    margin-bottom: 11rem;
+    margin-left: 0.7rem;
+}
+h2{
+    margin-left: 3rem;
+}

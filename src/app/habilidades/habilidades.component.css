@@ -1,0 +1,23 @@
+section.Hard_Skills_and_Soft_Skills{
+    border-style: solid;
+    border-width: 0.15rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-bottom: 0.7rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+#habil{
+    margin-left: -4rem;  
+}
+#septimologo{    
+    height: 45px;
+    width: 45px;
+    margin-top: 2rem; 
+    margin-left: 1rem;   
+}
+ul{
+    list-style: none;
+}

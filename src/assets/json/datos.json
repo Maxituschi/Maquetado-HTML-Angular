@@ -1,0 +1,87 @@
+{
+    "nombre": "Maximiliano N.",
+    "apellido": "Tuschi",
+    "sobre": "Me llamo Maximiliano, tengo 39 años, actualmente me encuentro trabajando como supervisor de poliducto en YPF, me decidi a realizar este curso para progresar dentro de la compañia, mi lugar de trabajo esta hubicado en la terminal de Junin, Bs As",
+    "foto": "assets/img/foto maxi.jpg",
+    
+    "experiencia": [
+        { 
+            "id": 1,
+            "img": "assets/img/logo-ypf.png",
+            "empresa": "YPF",
+            "inicio": "Septiembre 2011",
+            "fin": "Actualidad"
+        },
+        {
+            "id": 2,
+            "img": "assets/img/hasa.jpg",
+            "empresa": "HASA",
+            "inicio": "Octubre 2006",
+            "fin": "Septiembre 2011"
+        }
+    ],
+
+    "educacion": [
+        {
+            "id": 1,
+            "img": "assets/img/APLogo-20-20.png",
+            "titulo": "Argentina Preograma",
+            "inicio": "Noviembre 2022",
+            "fin": "Actualidad",
+            
+        },
+        {
+            "id": 2,
+            "img": "assets/img/IAS.jpg",
+            "titulo": "Licenciado en Seguridad e Higiene en el Trabajo",
+            "inicio": "Octubre 2006",
+            "fin": "Septiembre 2012"
+        },
+        {
+            "id": 3,
+            "img": "assets/img/instituto 20.jpg",
+            "titulo": "Profesor en Electronica",
+            "inicio": "Marzo 2001",
+            "fin": "Diciembre 2005"
+        },
+        {
+            "id": 4,
+            "img": "assets/img/escuela tecnica.jpg",
+            "titulo": "Licenciado en Seguridad e Higiene en el Trabajo",
+            "inicio": "Marzo 1996",
+            "fin": "Diciembre 2001"
+        }
+    ],
+
+    
+    "habilidades": [
+        {
+            "id": 1,
+            "img":"../assets/img/icono HTML.pgn",
+            "curso": "HTML",
+            "porcentaje": "65"
+        },
+   
+        {
+            "id": 2,
+            "img": "assets/img/icono CSS.pgn",
+            "curso": "CSS",
+            "porcentaje": "45"
+        },
+        {
+            "id": 3,
+            "img": "assets/img/icono JS.pgn",
+            "curso": "JavaScript",
+            "porcentaje": "35"
+        }
+    ],
+
+    "proyectos": [
+        {
+            "id": 1,
+            "img": "assets/img/MINIATURA-ARGEPROGR.jpg",
+            "nombre": "Mi porfolio",
+            "institucion": "Argentina Programa"
+        }
+    ]
+}

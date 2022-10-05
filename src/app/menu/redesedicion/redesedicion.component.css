@@ -1,0 +1,17 @@
+.list-group.list-group-horizontal {
+    margin-top: -2rem;
+
+}
+.list-group-item {
+    color: #0d6efd;
+    }
+
+/* animacion de los iconos */
+/*redes*/
+i.fa-brands.fa-github.fa-xl:hover, 
+i.fa-brands.fa-facebook.fa-xl:hover,
+i.fa-solid.fa-envelope.fa-xl:hover,
+.fa-solid.fa-user.fa-lg:hover
+{
+   transform: scale(1.25);
+}
