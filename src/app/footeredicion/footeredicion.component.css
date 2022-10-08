@@ -1,11 +1,10 @@
 .footer {
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     margin-bottom: 2rem;
     background-color: #4343a4;
     height: 4rem;
-    
-   
 }
+
 .list-group-item {
    color: #0d6efd;
     }

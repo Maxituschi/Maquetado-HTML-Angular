@@ -1,13 +1,13 @@
-section.Hard_Skills_and_Soft_Skills{
+.habilidades{
     border-style: solid;
     border-width: 0.15rem;
     border-radius: 1rem;
     margin-top: 1.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    padding-bottom: 0.7rem;
     padding-left: 1rem;
     padding-top: 0.5rem;
+    padding-bottom: 1.4rem;
 }
 #habil{
     margin-left: -4rem;  
@@ -15,9 +15,15 @@ section.Hard_Skills_and_Soft_Skills{
 #septimologo{    
     height: 45px;
     width: 45px;
-    margin-top: 2rem; 
+    margin-top: 2.3rem; 
+    margin-left: 1rem;  
+    }
+#octavologo{    
+    height: 45px;
+    width: 45px;
+    margin-top: 1.3rem; 
     margin-left: 1rem;   
-}
+    }
 ul{
     list-style: none;
 }

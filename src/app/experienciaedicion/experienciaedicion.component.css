@@ -10,7 +10,7 @@ ul{
     list-style: none;
 }
 
-section.experiencia{
+.experiencia{
     border-style: solid;
     border-width: 0.15rem;
     border-radius: 1rem;

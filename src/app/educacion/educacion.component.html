@@ -4,35 +4,23 @@
 
       <div class="col-2">
         <ul>
-       <li><img src="assets/img/MINIATURA-ARGEPROGR.jpg" id="primerlogo" alt="..."></li>
-       <li><img src="assets/img/IAS.jpg" id="segundologo" alt="..."></li>
-       <li><img src="assets/img/Instituto 20.jpg" id="tercerlogo" alt="..."></li>
-       <li><img src="assets/img/escuela tecnica.jpg" id="cuartologo" alt="..."></li>
+         <li *ngFor="let educ of educacion">
+          <img [src]="educ.img" alt="Logo Institucion" [style.height]="educ.logoalto" [style.width]="educ.logoancho"[style.margin-top]="educ.top"[style.margin-left]="educ.left">
+         </li>       
         </ul>
 </div>
 
-<div id="edu" class="col-8">
+       <div id="edu" class="col-8">
 <div>
 <h4>Educacion</h4>  
 <div *ngFor="let edu of educacion">
 <h6>{{edu.titulo}}</h6>
-<p>{{edu.inicio}} {{edu.fin}}</p>
+<p>{{edu.inicio}} - {{edu.fin}}</p>
 <br>
 </div>
 
-<!-- <h6>Licenciado en Seguridad e Higiene en el Trabajo</h6>
-<P>Marzo 2006 - Diciembre 2012</P>
-<br>
-<h6>Profesor en Electronica</h6>
-<P>Marzo 2001 - Diciembre 2005</P> 
-
-<br>
-
-<h6>Escuela Tecnica N° 1</h6>
-<P>Marzo 1996 - Diciembre 2001</P>
-<br> -->
 </div>
-</div>          
+       </div>          
 
        <div class="col-2">
 

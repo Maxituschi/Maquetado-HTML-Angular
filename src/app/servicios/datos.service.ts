@@ -5,12 +5,13 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class DatosService {
+export class DatosService{
    
+  constructor(private http:HttpClient){ }
 
-  constructor(private http:HttpClient) { }
-   getDatos():Observable<any> {
+  getDatos(): Observable<any>{
     return this.http.get('./assets/json/datos.json');
+    
    }
    
    

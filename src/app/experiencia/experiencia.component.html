@@ -3,27 +3,27 @@
     <div class="contenedor-fluid">
       <div class="row">
 
-        <div id="exper" class= "col-2">
-          <ul>
-          <li><img src="assets/img/logo-ypf.png" id="quintologo" alt="..."></li>
-          <li><img src="assets/img/hasa.jpg" id="sextologo" alt="..."></li>
-          </ul>
-        </div>
+      <div  class= "col-2" id="exper">
+
+        <ul>
+          <li *ngFor="let exp of experiencia">
+            <img [src]="exp.img" id="quintologo" alt="..." [style.height]="exp.logoalto"[style.width]="exp.logoancho"[style.margin-top]="exp.top"[style.margin-left]="exp.left">
+          </li>                    
+        </ul>
+
+      </div>
     
-        <div class="col-8">
+      <div class="col-8 ">
         <div>
-          <h4>Experiencia</h4>
-        <div *ngFor="let exp of experiencia">
-          <h6>{{exp.empresa}}</h6>
-          <p>{{exp.inicio}} {{exp.fin}}</p>
-          <br>
+            <h4>Experiencia</h4>
+
+          <div *ngFor="let exp of experiencia">
+            <h6>{{exp.empresa}}</h6>
+            <p>{{exp.inicio}} - {{exp.fin}}</p>
+            <br>
+          </div>
         </div>
-          
-          <!-- <h6>HASA</h6>
-          <P>Octubre 2006 - Septiembre 2011</P>
-          <br> -->
-        </div>
-        </div>
+      </div>
 
     
     </div>

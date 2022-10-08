@@ -1,7 +1,7 @@
 {
     "nombre": "Maximiliano N.",
     "apellido": "Tuschi",
-    "sobre": "Me llamo Maximiliano, tengo 39 años, actualmente me encuentro trabajando como supervisor de poliducto en YPF, me decidi a realizar este curso para progresar dentro de la compañia, mi lugar de trabajo esta hubicado en la terminal de Junin, Bs As",
+    "sobre": "Me llamo Maximiliano, tengo 39 años, actualmente me encuentro trabajando como supervisor de poliducto en YPF, me decidi a realizar este curso para progresar dentro de la compañia, mi lugar de trabajo esta hubicado en la terminal de Junin, Bs As.",
     "foto": "assets/img/foto maxi.jpg",
     
     "experiencia": [
@@ -10,78 +10,116 @@
             "img": "assets/img/logo-ypf.png",
             "empresa": "YPF",
             "inicio": "Septiembre 2011",
-            "fin": "Actualidad"
+            "fin": "Actualidad",
+            "logoalto":"60px",
+            "logoancho":"110px",
+            "top":"2rem"
+            
         },
         {
             "id": 2,
             "img": "assets/img/hasa.jpg",
             "empresa": "HASA",
             "inicio": "Octubre 2006",
-            "fin": "Septiembre 2011"
+            "fin": "Septiembre 2011",
+            "logoalto":"40px",
+            "logoancho":"110px",
+            "top":"2.2rem"
+            
         }
     ],
 
     "educacion": [
         {
             "id": 1,
-            "img": "assets/img/APLogo-20-20.png",
-            "titulo": "Argentina Preograma",
+            "img": "assets/img/MINIATURA-ARGEPROGR.jpg",
+            "titulo": "Desarrollador Junior",
             "inicio": "Noviembre 2022",
             "fin": "Actualidad",
-            
+            "logoalto":"60px",
+            "logoancho":"90px",
+            "top":"2.3rem",
+            "left":"-1rem"
         },
         {
             "id": 2,
             "img": "assets/img/IAS.jpg",
             "titulo": "Licenciado en Seguridad e Higiene en el Trabajo",
             "inicio": "Octubre 2006",
-            "fin": "Septiembre 2012"
+            "fin": "Septiembre 2012",
+            "logoalto":"70px",
+            "logoancho":"70px",
+            "top":"1.7rem",
+            "left":"-0.3rem"
         },
         {
-            "id": 3,
-            "img": "assets/img/instituto 20.jpg",
+            "id": 3,            
+            "img": "assets/img/Instituto.jpg",
             "titulo": "Profesor en Electronica",
             "inicio": "Marzo 2001",
-            "fin": "Diciembre 2005"
+            "fin": "Diciembre 2005",
+            "logoalto":"60px",
+            "logoancho":"60px",
+            "top":"1.5rem"
+            
         },
         {
             "id": 4,
             "img": "assets/img/escuela tecnica.jpg",
-            "titulo": "Licenciado en Seguridad e Higiene en el Trabajo",
+            "titulo": "Escuela Tecnica N° 1",
             "inicio": "Marzo 1996",
-            "fin": "Diciembre 2001"
-        }
+            "fin": "Diciembre 2001",
+            "logoalto":"70px",
+            "logoancho":"60px",
+            "top":"1.5rem"
+          }
     ],
 
     
     "habilidades": [
         {
             "id": 1,
-            "img":"../assets/img/icono HTML.pgn",
+            "img": "assets/img/icono HTML.png",
             "curso": "HTML",
-            "porcentaje": "65"
+            "porcentaje": "65",
+            "logoalto":"45px",
+            "logoancho":"45px",
+            "top":"2.3rem",
+            "left":"1rem"
+            
         },
-   
+
         {
             "id": 2,
-            "img": "assets/img/icono CSS.pgn",
+            "img": "assets/img/icono CSS.png",
             "curso": "CSS",
-            "porcentaje": "45"
+            "porcentaje": "45",
+            "logoalto":"45px",
+            "logoancho":"45px",
+            "top":"1.3rem",
+            "left":"1rem"
         },
         {
             "id": 3,
-            "img": "assets/img/icono JS.pgn",
+            "img": "assets/img/icono JS.jpg",
             "curso": "JavaScript",
-            "porcentaje": "35"
+            "porcentaje": "35",
+            "logoalto":"45px",
+            "logoancho":"45px",
+            "top":"1.3rem",
+            "left":"1rem"
         }
     ],
-
     "proyectos": [
-        {
-            "id": 1,
+
+        {            
             "img": "assets/img/MINIATURA-ARGEPROGR.jpg",
             "nombre": "Mi porfolio",
-            "institucion": "Argentina Programa"
+            "institucion":"Argentina Programa",
+            "logoalto": "60px",
+            "logoancho": "90px",
+            "top": "2.3rem",
+            "left": "-1rem"
         }
     ]
 }

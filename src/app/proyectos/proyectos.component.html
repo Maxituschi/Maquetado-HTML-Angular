@@ -1,19 +1,19 @@
-<section id="proyectos" class="proyectos">
+  <section class="proyectos">
   <div class="content-fluid">
     <div class="row">
 
       <div class="col-2">
         <ul>
-         <li><img src="assets/img/MINIATURA-ARGEPROGR.jpg" id="logoargentina" alt="..."></li>
+         <li *ngFor="let proyecto of proyectos">
+          <img [src]="proyecto.img" alt="Logo del Proyecto" [style.height]="proyecto.logoalto"[style.width]="proyecto.logoancho"[style.margin-top]="proyecto.top"[style.margin-left]="proyecto.left">
+         </li>
         </ul>
       </div>
 
-       <div id="proyec" class="col-8">
+       <div *ngFor="let proyecto of proyectos" id= "proyec" class="col-8">
         <h4>Proyectos</h4>
-        <h6>Aregentina Programa</h6>
-        <P>Mi porfolio</P>
-       <br>
-          
+        <h6>{{proyecto.institucion}}</h6>
+        <P>{{proyecto.nombre}}</P>              
       </div>
 
       <div class="col-2">
