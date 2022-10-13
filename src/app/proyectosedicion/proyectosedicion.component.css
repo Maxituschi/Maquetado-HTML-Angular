@@ -8,6 +8,8 @@ section.proyectos {
     padding-bottom: 1.4rem;
     padding-left: 1rem;
     padding-top: 0.5rem;
+    color: #7dc0c0;
+    font-family: cursive;
 }
 ul {
     list-style: none;

@@ -1,8 +1,9 @@
 
 /* esto es para cambiar el estilo de la letra*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-*{}
-h4{
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+*{}  */
+
+ h4{
     color: #7dc0c0;
     font-family: cursive;
     background-color: #d6d6f16f;

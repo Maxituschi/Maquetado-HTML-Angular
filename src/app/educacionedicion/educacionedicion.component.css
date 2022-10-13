@@ -8,6 +8,8 @@ section.educacion {
     padding-left: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    color: #7dc0c0;
+    font-family: cursive;
 }
 #edu{
     margin-left: -4rem;
@@ -20,7 +22,7 @@ ul {
 #primerlogo{
     height: 60px;
     width: 90px;
-    margin-top: 2rem;
+    margin-top: 2.3rem;
     margin-left: -1rem;  
 }
 #segundologo{

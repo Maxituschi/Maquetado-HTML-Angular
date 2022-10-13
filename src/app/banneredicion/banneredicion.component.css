@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-*{}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap'); */
 
-section.info {
+
+.info {
     background-image: url(/assets/img/pexels-philippe-donn-1169754.jpg) !important;
     background-size: cover;
     background-repeat: no-repeat;

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http'; 
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -48,14 +49,12 @@ import { ModalbannerComponent } from './modalbanner/modalbanner.component';
     ProyectosComponent,
     EdicionComponent,
     IndexComponent,
-    NavbaredicionComponent,
-      
+    NavbaredicionComponent,      
     ExperienciaedicionComponent,
     EducacionedicionComponent,
     HabilidadesedicionComponent,
     ProyectosedicionComponent,
-    FooterComponent,
-    
+    FooterComponent,    
     BanneredicionComponent,
     RedesedicionComponent,
     ModalloginComponent,
@@ -73,7 +72,9 @@ import { ModalbannerComponent } from './modalbanner/modalbanner.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule 
   ],
   //este campo tambien se llena con service
   providers: [],
